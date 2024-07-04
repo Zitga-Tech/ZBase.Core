@@ -1,0 +1,39 @@
+{
+  "name": "com.zbase.core",
+  "displayName": "ZBase.Core",
+  "version": "1.0.0",
+  "type": "library",
+  "unity": "2022.3",
+  "dependencies": {
+    "com.annulusgames.unity-codegen": "1.0.0",
+    "com.cysharp.unitask": "2.5.4",
+    "com.draconware-dev.span-extensions.net.unity": "1.3.0",
+    "com.gilzoide.easy-project-settings": "1.1.0",
+    "com.unity.collections": "2.4.2",
+    "com.unity.logging": "1.2.3",
+    "com.unity.mathematics": "1.3.2",
+    "com.zbase.foundation": "1.0.6",
+    "com.zbase.foundation.aliasing": "1.1.0",
+    "com.zbase.foundation.enum-extensions": "1.3.7",
+    "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.annulusgames.unity-codegen",
+        "com.cysharp.unitask",
+        "com.draconware-dev.span-extensions.net.unity",
+        "com.gilzoide.easy-project-settings",
+        "com.zbase.foundation",
+        "com.zbase.foundation.aliasing",
+        "com.zbase.foundation.enum-extensions",
+        "org.nuget.system.runtime.compilerservices.unsafe"
+      ]
+    }
+  ],
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  }
+}
